@@ -1,5 +1,6 @@
 const router = require('koa-router')()
 
+//users相比index配置了二级路由
 router.prefix('/users')
 
 router.get('/', function (ctx, next) {
